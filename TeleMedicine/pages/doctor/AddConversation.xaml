@@ -1,0 +1,14 @@
+﻿<Window x:Class="TeleMedicine.pages.doctor.AddConversation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TeleMedicine.pages.doctor"
+        mc:Ignorable="d"
+        Title="New Conversation" Height="128.711" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" Background="White">
+    <Grid Margin="0,0,0,123.684">
+        <Button x:Name="addButton" Content="Start Conversation" Height="26" Margin="85,0,80,-87" VerticalAlignment="Bottom" Background="{x:Null}" Click="addButton_Click"/>
+        <ComboBox x:Name="patientList" Height="23" Margin="49,0,48,-45" VerticalAlignment="Bottom"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,26 @@
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedTransition\bin\Debug\TeleMedTransition.dll
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedTransition\bin\Debug\TeleMedTransition.pdb
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\PageTransition.g.cs
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\GeneratedInternalTypeHelper.g.cs
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\TeleMedTransition_MarkupCompile.cache
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\TeleMedTransition_MarkupCompile.lref
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\PageTransition.baml
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\TeleMedTransition.g.resources
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\TeleMedTransition.Properties.Resources.resources
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\TeleMedTransition.csproj.GenerateResource.Cache
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\TeleMedTransition.dll
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\TeleMedTransition.pdb
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\TeleMedTransition.csprojResolveAssemblyReference.cache
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedTransition\bin\Debug\TeleMedTransition.dll
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedTransition\bin\Debug\TeleMedTransition.pdb
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\PageTransition.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\TeleMedTransition_MarkupCompile.cache
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\TeleMedTransition_MarkupCompile.lref
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\PageTransition.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\TeleMedTransition.g.resources
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\TeleMedTransition.Properties.Resources.resources
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\TeleMedTransition.csproj.GenerateResource.Cache
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\TeleMedTransition.dll
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\TeleMedTransition.pdb
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedTransition\obj\Debug\TeleMedTransition.csprojResolveAssemblyReference.cache

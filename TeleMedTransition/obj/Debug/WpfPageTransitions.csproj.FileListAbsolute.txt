@@ -1,0 +1,13 @@
+\\vmware-host\Shared Folders\Downloads\Compressed\PageTransitionsDemo\WpfPageTransitions\bin\Debug\WpfPageTransitions.dll
+\\vmware-host\Shared Folders\Downloads\Compressed\PageTransitionsDemo\WpfPageTransitions\bin\Debug\WpfPageTransitions.pdb
+\\vmware-host\Shared Folders\Downloads\Compressed\PageTransitionsDemo\WpfPageTransitions\obj\Debug\WpfPageTransitions.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Downloads\Compressed\PageTransitionsDemo\WpfPageTransitions\obj\Debug\PageTransition.g.cs
+\\vmware-host\Shared Folders\Downloads\Compressed\PageTransitionsDemo\WpfPageTransitions\obj\Debug\GeneratedInternalTypeHelper.g.cs
+\\vmware-host\Shared Folders\Downloads\Compressed\PageTransitionsDemo\WpfPageTransitions\obj\Debug\WpfPageTransitions_MarkupCompile.cache
+\\vmware-host\Shared Folders\Downloads\Compressed\PageTransitionsDemo\WpfPageTransitions\obj\Debug\WpfPageTransitions_MarkupCompile.lref
+\\vmware-host\Shared Folders\Downloads\Compressed\PageTransitionsDemo\WpfPageTransitions\obj\Debug\PageTransition.baml
+\\vmware-host\Shared Folders\Downloads\Compressed\PageTransitionsDemo\WpfPageTransitions\obj\Debug\WpfPageTransitions.g.resources
+\\vmware-host\Shared Folders\Downloads\Compressed\PageTransitionsDemo\WpfPageTransitions\obj\Debug\WpfPageTransitions.Properties.Resources.resources
+\\vmware-host\Shared Folders\Downloads\Compressed\PageTransitionsDemo\WpfPageTransitions\obj\Debug\WpfPageTransitions.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Downloads\Compressed\PageTransitionsDemo\WpfPageTransitions\obj\Debug\WpfPageTransitions.dll
+\\vmware-host\Shared Folders\Downloads\Compressed\PageTransitionsDemo\WpfPageTransitions\obj\Debug\WpfPageTransitions.pdb

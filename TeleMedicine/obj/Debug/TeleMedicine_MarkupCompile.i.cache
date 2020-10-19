@@ -1,0 +1,20 @@
+﻿TeleMedicine
+
+
+winexe
+C#
+.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\
+TeleMedicine
+none
+false
+DEBUG;TRACE
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\App.xaml
+331084766429
+
+40829791425
+161094401039
+MainWindow.xaml;pages\admin\admin_frame.xaml;pages\admin\all_account.xaml;pages\admin\doctor_account.xaml;pages\admin\pharmacy.xaml;pages\admin\settings.xaml;pages\admin\new_account.xaml;pages\admin\patient_account.xaml;pages\doctor\AddConversation.xaml;pages\doctor\appointments.xaml;pages\doctor\doctor_frame.xaml;pages\doctor\messages.xaml;pages\doctor\patients.xaml;pages\doctor\pharmacy.xaml;pages\doctor\profile.xaml;pages\doctor\recordWindow.xaml;pages\doctor\schedule.xaml;pages\doctor\searchWindow.xaml;pages\doctor\settings.xaml;pages\faq.xaml;pages\patient\AddConversation.xaml;pages\patient\cart.xaml;pages\patient\pharmacy.xaml;pages\patient\dashboard.xaml;pages\patient\messages.xaml;pages\patient\patient_frame.xaml;pages\patient\appointment.xaml;pages\patient\bill.xaml;pages\patient\result.xaml;pages\patient\settings.xaml;pages\store.xaml;pages\welcome.xaml;pages\login.xaml;
+telemedsplash.png
+True
+

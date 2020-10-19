@@ -1,0 +1,26 @@
+﻿<Window x:Class="TeleMedicine.pages.faq"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TeleMedicine.pages"
+        mc:Ignorable="d"
+        Title="Frequently Asked Questions" Height="435.534" Width="701.961" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="/TeleMedicine;component/telemed.ico">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="FAQ.png" Stretch="None" Opacity="0.1"/>
+        </Grid.Background>
+        <Label x:Name="label" Content="How can i create an account on TeleMedicine Application?" HorizontalAlignment="Left" Margin="41,26,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Yes. Contact the administrator, an account would be set up for you" HorizontalAlignment="Left" Margin="57,49,0,0" VerticalAlignment="Top" Foreground="#FF737070" FontStyle="Italic"/>
+        <Label x:Name="label_Copy" Content="Can i schedule/check for appointments with doctors/patients?" HorizontalAlignment="Left" Margin="41,86,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy" Content="Click on the appointments tab, use the calendar to check for appointments on specific dates" HorizontalAlignment="Left" Margin="57,109,0,0" VerticalAlignment="Top" Foreground="#FF737070" FontStyle="Italic"/>
+        <Label x:Name="label_Copy1" Content="Is it possible to purchase drugs from the pharmacy section?" HorizontalAlignment="Left" Margin="41,142,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy1" Content="You can access the pharmacy store and purchase drugs once you are logged in" HorizontalAlignment="Left" Margin="57,165,0,0" VerticalAlignment="Top" Foreground="#FF737070" FontStyle="Italic"/>
+        <Label x:Name="label_Copy2" Content="Can i communicate with doctors/patients?" HorizontalAlignment="Left" Margin="41,199,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy2" Content="Yes, there is a platform to communicate via messages" HorizontalAlignment="Left" Margin="57,222,0,0" VerticalAlignment="Top" Foreground="#FF737070" FontStyle="Italic"/>
+        <Label x:Name="label_Copy3" Content="How can i reset my account password?" HorizontalAlignment="Left" Margin="41,254,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy3" Content="Contact the administrator for account password recovery" HorizontalAlignment="Left" Margin="57,277,0,0" VerticalAlignment="Top" Foreground="#FF737070" FontStyle="Italic"/>
+        <Label x:Name="label_Copy4" Content="Can i update my account information?" HorizontalAlignment="Left" Margin="41,314,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy4" Content="Yes, you can change your password and other personal/medical information about yourself" HorizontalAlignment="Left" Margin="57,337,0,0" VerticalAlignment="Top" Foreground="#FF737070" FontStyle="Italic"/>
+    </Grid>
+</Window>

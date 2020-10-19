@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="TeleMedicine.pages.welcome"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TeleMedicine.pages"
+             mc:Ignorable="d" Height="668" Width="884" Background="Black">
+    <Grid Margin="-11.826,-4.445,-4.434,-1.478">
+        <Grid.Background>
+            <ImageBrush ImageSource="bg.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Rectangle Margin="200.99,141.892,200.976,141.865" Stroke="#7FD6C9C9" StrokeDashCap="Round" Fill="White">
+            <Rectangle.Effect>
+                <DropShadowEffect RenderingBias="Quality" Color="#FFF0EBEB" BlurRadius="1" Direction="300" ShadowDepth="3"/>
+            </Rectangle.Effect>
+        </Rectangle>
+        <Image x:Name="image" Height="61.461" Margin="406.982,169.67,415.016,0" VerticalAlignment="Top" Source="13.png"/>
+        <PasswordBox x:Name="passbox" Margin="423.923,0,276.336,265.047" Width="200" Height="30" FontSize="13.333"  VerticalAlignment="Bottom"/>
+        <PasswordBox x:Name="cpassbox" Height="30" Margin="423.923,0,276.336,214.28" VerticalAlignment="Bottom" Width="200" FontFamily="Segoe UI Light" FontSize="13.333"/>
+        <Button x:Name="proceedbutton" Content="proceed" Height="27" Margin="0,0,279.964,170.968" VerticalAlignment="Bottom" Background="#7FE9F0EF" BorderBrush="#FF8AB0C1" Foreground="#FF0C6615" FontSize="13.333" HorizontalAlignment="Right" Width="121.188" Click="proceedbutton_Click"/>
+        <Label x:Name="label2" Content="New password" Margin="295.384,0,0,267.531" HorizontalAlignment="Left" Width="116.952" Height="25.077" VerticalAlignment="Bottom"/>
+        <Label x:Name="label2_Copy" Content="Confirm Password" Height="25.077" Margin="295.384,0,0,218.242" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="113.996"/>
+        <Label x:Name="label3" Content="Tele" Height="33.991" Margin="382.628,233.521,0,0" VerticalAlignment="Top" FontFamily="Britannic Bold" FontSize="21.333" HorizontalAlignment="Left" Width="51.614"/>
+        <Label x:Name="label4" Content="Medicine" Height="31.947" Margin="422.982,233.609,379.362,0" VerticalAlignment="Top" Foreground="#FFAE0000" FontSize="21.333" FontFamily="Britannic Bold"/>
+        <Label x:Name="label" Content="Welcome on board!" HorizontalAlignment="Left" Height="26.603" Margin="274.892,279.334,0,0" VerticalAlignment="Top" Width="174.129" FontSize="16" FontFamily="Segoe UI Semibold"/>
+        <Label x:Name="name" Content="" Margin="302.973,305.025,317.72,0" FontSize="13.333" Height="28.992" VerticalAlignment="Top" FontFamily="Segoe UI Light"/>
+        <Label x:Name="label1" Content="Kindly set a new password for your account" Height="31.903" Margin="292.627,0,358.582,297.091" VerticalAlignment="Bottom"/>
+    </Grid>
+</UserControl>

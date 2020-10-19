@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="TeleMedicine.pages.patient.patient_frame"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TeleMedicine.pages.patient"
+              xmlns:pageTransitions="clr-namespace:TeleMedTransition;assembly=TeleMedTransition"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Width="910" Height="680" Background="Black">
+    <Grid Background="{x:Null}">
+        <Grid>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFCECECE" Offset="1"/>
+                    <GradientStop Color="#CC6C8FB2" Offset="0.155"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Image x:Name="image" HorizontalAlignment="Left" Height="82" Margin="37.22,24.4,0,0" VerticalAlignment="Top" Width="180" Source="telebluewhite.png" StretchDirection="DownOnly"/>
+            <Grid Margin="1.768,0,-1.768,2.942" Background="#CC6C8FB2" Height="29.222" VerticalAlignment="Bottom">
+                <Label x:Name="statusText" Content="Connecting to database" Height="32" Margin="38.423,0.309,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FFE0E83A" HorizontalAlignment="Left" Width="180.436"/>
+                <Ellipse x:Name="statusCircle" Fill="#FFE6FB8A" HorizontalAlignment="Left" Height="11" Margin="24.423,8.309,0,0" StrokeEndLineCap="Square" VerticalAlignment="Top" Width="10" d:LayoutOverrides="VerticalAlignment"/>
+            </Grid>
+        </Grid>
+        <pageTransitions:PageTransition Name="pageTransitionControl" TransitionType="SlideAndFade" RenderTransformOrigin="0.457,0.512" MaxWidth="900" MaxHeight="700" Margin="-13.9,120.815,-18.913,32.224" >
+            <pageTransitions:PageTransition.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.965"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-1.776"/>
+                </TransformGroup>
+            </pageTransitions:PageTransition.RenderTransform>
+        </pageTransitions:PageTransition>
+        <Grid Height="80.232" Margin="0,21.909,24.843,0" VerticalAlignment="Top" OpacityMask="Black" HorizontalAlignment="Right" Width="193.25">
+            <Image x:Name="image1" HorizontalAlignment="Left" Margin="1,3.75,0,5.25" Width="71.41" />
+            <Label x:Name="userLabel" Content="" Margin="78.41,2.5,10,0" Background="{x:Null}" Foreground="White" FontSize="16" FontFamily="Malgun Gothic" FontWeight="Bold" FontStretch="ExtraCondensed" TextOptions.TextFormattingMode="Display" TextOptions.TextHintingMode="Fixed" Height="31.235" VerticalAlignment="Top"/>
+            <Label x:Name="label1" Content="sign out" Margin="79.182,0,31.568,0" TextOptions.TextFormattingMode="Display" TextOptions.TextHintingMode="Animated" FontFamily="Vijaya" FontSize="13.333" Foreground="#FFE58F48" Cursor="Hand" Height="24.343" VerticalAlignment="Bottom" MouseLeftButtonDown="label1_MouseLeftButtonDown"/>
+            <Label x:Name="pcode" Content="" Margin="78.41,27.473,10,21.524" Background="{x:Null}" Foreground="White" FontSize="16" FontFamily="Segoe UI Light" FontWeight="Bold" FontStretch="ExtraCondensed" TextOptions.TextFormattingMode="Display" TextOptions.TextHintingMode="Fixed"/>
+        </Grid>
+
+    </Grid>
+</UserControl>

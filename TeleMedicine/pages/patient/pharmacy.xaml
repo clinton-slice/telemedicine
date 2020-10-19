@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="TeleMedicine.pages.patient.pharmacy"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TeleMedicine.pages.patient"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Width="900" Height="525">
+    <Grid Background="White">
+        <Label x:Name="label" Content="PHARMACY" HorizontalAlignment="Right" Height="33.5" Margin="0,31.098,40.365,0" VerticalAlignment="Top" Width="134.219" FontFamily="Segoe UI Light" FontSize="18.667" FontStretch="ExtraCondensed" FontWeight="Bold" Background="{x:Null}" Foreground="Black"/>
+
+
+        <Image x:Name="home" HorizontalAlignment="Left" Height="32.728" Margin="17.874,28.954,0,0" VerticalAlignment="Top" Width="34.609" MouseLeftButtonDown="home_MouseLeftButtonDown" Cursor="Hand" Source="back.png"/>
+        <Label x:Name="label_Copy" Content="Back to dashboard" HorizontalAlignment="Left" Height="33.5" Margin="48.109,26.724,0,0" VerticalAlignment="Top" Width="158.357" FontFamily="Segoe UI Light" FontSize="18.667" FontStretch="ExtraCondensed" FontWeight="Bold" Background="{x:Null}" Foreground="Black" MouseLeftButtonDown="home_MouseLeftButtonDown" Cursor="Hand"/>
+        <ListBox x:Name="drugList" Margin="37.473,120.746,311.41,28.01"/>
+        <Image x:Name="image" HorizontalAlignment="Right" Height="84.03" Margin="0,163.897,134.264,0" VerticalAlignment="Top" Width="90.087" Source="cart.png" Stretch="Fill"/>
+        <Label x:Name="cartAmount" Content="Cart is empty!" HorizontalAlignment="Right" Margin="0,256.252,129.346,237.71" Width="100.685" FontFamily="Segoe UI Light" FontSize="13.333"/>
+        <Button x:Name="button" Content="Checkout" HorizontalAlignment="Right" Height="46.936" Margin="0,0,85.815,133.227" VerticalAlignment="Bottom" Width="158.976" BorderBrush="#FFA0C4D8" Background="#FFF9F9F9" Click="button_Click"/>
+        <Label x:Name="label2" Content="View cart items" HorizontalAlignment="Right" Height="24.147" Margin="0,0,119.115,210.155" VerticalAlignment="Bottom" Width="95.387" Cursor="Hand" MouseLeftButtonDown="label2_MouseLeftButtonDown"/>
+        <Label x:Name="label3" Content="List of available drugs" HorizontalAlignment="Left" Height="31.795" Margin="38.23,88.951,0,0" VerticalAlignment="Top" Width="146.863" FontSize="13.333"/>
+
+    </Grid>
+</UserControl>

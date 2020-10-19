@@ -1,0 +1,66 @@
+﻿<UserControl x:Class="TeleMedicine.pages.patient.settings"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TeleMedicine.pages.patient"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Width="900" Height="525">
+    <Grid Background="White">
+        <Label x:Name="label" Content="SETTINGS" HorizontalAlignment="Right" Height="33.5" Margin="0,27.771,54.62,0" VerticalAlignment="Top" Width="90.468" FontFamily="Segoe UI Light" FontSize="18.667" FontStretch="ExtraCondensed" FontWeight="Bold" Background="{x:Null}" Foreground="Black"/>
+        <Image x:Name="profilePix" HorizontalAlignment="Right" Height="103.185" Margin="0,0,64,55.32" VerticalAlignment="Bottom" Width="114.752"/>
+        <Label x:Name="label1" Content="Profile Details" HorizontalAlignment="Left" Height="30.368" Margin="40.606,87.073,0,0" VerticalAlignment="Top" Width="116.394" FontFamily="Segoe UI Semibold" FontSize="16"/>
+        <PasswordBox x:Name="c_pass" HorizontalAlignment="Right" Height="21.632" Margin="0,126.368,64,0" VerticalAlignment="Top" Width="182"/>
+        <PasswordBox x:Name="n_pass" HorizontalAlignment="Right" Height="21.632" Margin="0,186.368,64,0" VerticalAlignment="Top" Width="182"/>
+        <PasswordBox x:Name="c_n_pass" HorizontalAlignment="Right" Height="21.632" Margin="0,239.553,64,0" VerticalAlignment="Top" Width="182"/>
+        <Label x:Name="label1_Copy" Content="Current Password" HorizontalAlignment="Right" Height="28.368" Margin="0,98,130.606,0" VerticalAlignment="Top" Width="115.394" FontFamily="Segoe UI Light"/>
+        <Label x:Name="label1_Copy1" Content="New Password" HorizontalAlignment="Right" Height="28.368" Margin="0,158,130.606,0" VerticalAlignment="Top" Width="115.394" FontFamily="Segoe UI Light"/>
+        <Label x:Name="label1_Copy2" Content="Confirm New Password" HorizontalAlignment="Right" Height="28.368" Margin="0,211.185,116.606,0" VerticalAlignment="Top" Width="129.394" FontFamily="Segoe UI Light"/>
+        <Button x:Name="changePass" Content="Change Password" HorizontalAlignment="Right" Height="25.295" Margin="0,276.304,115.606,0" VerticalAlignment="Top" Width="127.394" Click="changePass_Click" Background="{x:Null}"/>
+        <Rectangle Height="388.632" Margin="40.606,0,293.154,10" RadiusY="7.5" RadiusX="7.5" Stroke="#FFE6E9EA" VerticalAlignment="Bottom" Fill="White"/>
+        <Button x:Name="button" Content="Update Account Information" HorizontalAlignment="Left" Height="28" Margin="88.836,0,0,23.146" VerticalAlignment="Bottom" Width="233.096" Click="button_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="LightGray" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="lastnameBox" Margin="91.588,170.338,0,0" TextWrapping="Wrap" Height="24.004" VerticalAlignment="Top" HorizontalAlignment="Left" Width="230.344" MaxLength="30"/>
+        <TextBox x:Name="firstnameBox" Margin="371.438,170.456,322.183,0" TextWrapping="Wrap" Height="24.004" VerticalAlignment="Top" MaxLength="30"/>
+        <Label x:Name="label3" Content="Lastname" HorizontalAlignment="Left" Margin="85.064,148.138,0,0" Width="69" Height="24.004" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Firstname" Margin="368.036,146.854,0,0" Height="24.004" VerticalAlignment="Top" HorizontalAlignment="Left" Width="64"/>
+        <Button x:Name="uploadButton" Content="Upload profile picture" Height="28" Margin="0,0,64,15.516" VerticalAlignment="Bottom" Click="uploadButton_Click" Background="{x:Null}" HorizontalAlignment="Right" Width="132.193"/>
+        <Label x:Name="label4_Copy" Content="          Sex" HorizontalAlignment="Left" Margin="53.032,218.084,0,0" Width="64" Height="24.004" VerticalAlignment="Top"/>
+        <RadioButton x:Name="male" Content="Male" HorizontalAlignment="Left" Height="21.632" Margin="128.022,224.811,0,0" VerticalAlignment="Top" Width="62.092"/>
+        <RadioButton x:Name="female" Content="Female" HorizontalAlignment="Left" Height="21.632" Margin="220.404,224.811,0,0" VerticalAlignment="Top" Width="115.226"/>
+        <TextBox x:Name="phoneBox" Margin="371.438,222.62,322.183,0" TextWrapping="Wrap" Height="24.004" VerticalAlignment="Top" MaxLength="20"/>
+        <Label x:Name="label4_Copy1" Content="Phone" Margin="368.036,199.018,0,0" Height="24.004" VerticalAlignment="Top" HorizontalAlignment="Left" Width="64"/>
+        <TextBox x:Name="emailBox" Margin="91.588,0,0,221.794" TextWrapping="Wrap" HorizontalAlignment="Left" Width="230.344" Height="24.004" VerticalAlignment="Bottom" MaxLength="100"/>
+        <Label x:Name="label3_Copy" Content="Email" HorizontalAlignment="Left" Margin="85.064,257.002,0,243.994" Width="69"/>
+        <TextBox x:Name="blood" Margin="371.438,0,0,222.81" TextWrapping="Wrap" Height="24.004" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="71.937" MaxLength="3"/>
+        <Label x:Name="label4_Copy2" Content="Blood Group" Margin="368.036,252.316,446.042,243.994"/>
+        <TextBox x:Name="genotype" Margin="0,0,340.957,222.81" TextWrapping="Wrap" Height="24.004" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="71.937" MaxLength="3"/>
+        <Label x:Name="label4_Copy3" Content="Genotype" Margin="0,251.182,330.374,246.814" HorizontalAlignment="Right" Width="85.922"/>
+        <TextBox x:Name="height" Margin="371.438,0,0,161.574" TextWrapping="Wrap" Height="24.004" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="71.937" MaxLength="5"/>
+        <Label x:Name="label4_Copy4" Content="Height" Margin="368.036,0,446.042,182.758" Height="28.69" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="weight" Margin="0,0,340.957,161.574" TextWrapping="Wrap" Height="24.004" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="71.937" MaxLength="5"/>
+        <Label x:Name="label4_Copy5" Content="Weight" Margin="0,0,330.374,185.578" HorizontalAlignment="Right" Width="85.922" Height="27.004" VerticalAlignment="Bottom"/>
+        <RichTextBox x:Name="address" HorizontalAlignment="Left" Height="118.089" Margin="91.588,0,0,69.545" VerticalAlignment="Bottom" Width="230.344">
+            <FlowDocument/>
+        </RichTextBox>
+        <RichTextBox x:Name="allergies" Height="96.671" Margin="368.036,0,308.099,23.146" VerticalAlignment="Bottom">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label x:Name="label4_Copy6" Content="Allergies" Margin="368.036,0,446.042,118.12" Height="28.69" VerticalAlignment="Bottom"/>
+        <Label x:Name="label4_Copy7" Content="Address" Margin="89.072,0,0,182.758" Height="28.69" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="85.922"/>
+        <Image x:Name="home" HorizontalAlignment="Left" Height="32.728" Margin="17.874,28.954,0,0" VerticalAlignment="Top" Width="34.609" MouseLeftButtonDown="home_MouseLeftButtonDown" Cursor="Hand" Source="back.png"/>
+        <Label x:Name="label_Copy" Content="Back to dashboard" HorizontalAlignment="Left" Height="33.5" Margin="48.109,26.724,0,0" VerticalAlignment="Top" Width="158.357" FontFamily="Segoe UI Light" FontSize="18.667" FontStretch="ExtraCondensed" FontWeight="Bold" Background="{x:Null}" Foreground="Black" MouseLeftButtonDown="home_MouseLeftButtonDown" Cursor="Hand"/>
+
+
+    </Grid>
+</UserControl>

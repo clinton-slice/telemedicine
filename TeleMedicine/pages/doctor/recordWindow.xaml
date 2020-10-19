@@ -1,0 +1,102 @@
+﻿<Window x:Class="TeleMedicine.pages.doctor.recordWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TeleMedicine.pages.doctor"
+        mc:Ignorable="d"
+        Title="Patient Record" Height="695.496" Width="656.609" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid RenderTransformOrigin="0.516,0.524">
+        <Label x:Name="patientName" Content="d" Height="27" Margin="121,83.173,289.248,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14.667"/>
+        <Label x:Name="dateLabel" Content="d" Height="23" Margin="124.538,142.608,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" TextOptions.TextFormattingMode="Display" FontSize="10.667" HorizontalAlignment="Left" Width="185.113">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.185"/>
+                    <RotateTransform Angle="-0.482"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="doctorLabel" Content="d" Height="23" Margin="121.705,116,293.248,0" VerticalAlignment="Top"/>
+        <RichTextBox x:Name="commentBox" Margin="0,103.173,23.248,0" Height="112.827" VerticalAlignment="Top" HorizontalAlignment="Right" Width="248.361">
+            <RichTextBox.BorderBrush>
+                <LinearGradientBrush EndPoint="0,20" MappingMode="Absolute" StartPoint="0,0">
+                    <GradientStop Color="#FFABADB3" Offset="0.05"/>
+                    <GradientStop Color="#FFE2E3EA" Offset="0.07"/>
+                    <GradientStop Color="WhiteSmoke" Offset="1"/>
+                </LinearGradientBrush>
+            </RichTextBox.BorderBrush>
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button x:Name="SaveButton" Content="Save Record" HorizontalAlignment="Right" Height="43" Margin="0,0,30.248,19" VerticalAlignment="Bottom" Width="96" Background="#FFF5F7F6" Click="SaveButton_Click"/>
+        <Path Data="M95,215 L609,215" Fill="#FFF4F4F5" Height="1" Margin="95,215,321.609,0" Stretch="Fill" Stroke="#FFF5F1F1" VerticalAlignment="Top"/>
+        <TabControl x:Name="tabControl" Margin="26,246,21.248,84.496" Background="{x:Null}" BorderBrush="#FFCFD1D8">
+            <TabItem Header="Result" FontSize="13.333">
+                <Grid>
+                    <ListBox x:Name="resultList" Margin="43,27,61,114.04" BorderBrush="#FFDADEE6" FontSize="12"/>
+                    <RichTextBox x:Name="resultBox" Height="68" Margin="42,0,182.361,27.04" VerticalAlignment="Bottom" d:LayoutOverrides="HorizontalAlignment" FontSize="12">
+                        <FlowDocument/>
+                    </RichTextBox>
+                    <Button x:Name="addResult" Content="Add to list" HorizontalAlignment="Right" Height="27" Margin="0,0,59.361,64.04" VerticalAlignment="Bottom" Width="118" BorderBrush="White" d:LayoutOverrides="HorizontalAlignment" Click="addResult_Click">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                                <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                                <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                                <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                                <GradientStop Color="WhiteSmoke" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="deleteResult" Content="Delete selected" HorizontalAlignment="Right" Height="27" Margin="0,0,59.361,31.04" VerticalAlignment="Bottom" Width="118" BorderBrush="White" d:LayoutOverrides="HorizontalAlignment" Click="deleteResult_Click">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                                <GradientStop Color="White" Offset="0"/>
+                                <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                                <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                                <GradientStop Color="#FFF5EFEF" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Prescriptions" FontSize="13.333">
+                <Grid>
+                    <ListBox x:Name="presList" Margin="43,27,61,114.04" BorderBrush="#FFDADEE6" FontSize="12"/>
+                    <RichTextBox x:Name="presBox" Height="68" Margin="42,0,182.361,27.04" VerticalAlignment="Bottom" d:LayoutOverrides="HorizontalAlignment" FontSize="12">
+                        <FlowDocument/>
+                    </RichTextBox>
+                    <Button x:Name="addPres" Content="Add to list" HorizontalAlignment="Right" Height="27" Margin="0,0,59.361,64.04" VerticalAlignment="Bottom" Width="118" BorderBrush="White" d:LayoutOverrides="HorizontalAlignment" Click="addPres_Click">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                                <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                                <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                                <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                                <GradientStop Color="WhiteSmoke" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="deletePres" Content="Delete selected" HorizontalAlignment="Right" Height="27" Margin="0,0,59.361,31.04" VerticalAlignment="Bottom" Width="118" BorderBrush="White" d:LayoutOverrides="HorizontalAlignment" Click="deletePres_Click">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                                <GradientStop Color="White" Offset="0"/>
+                                <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                                <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                                <GradientStop Color="#FFF5EFEF" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Label x:Name="label" Content="Comment" HorizontalAlignment="Right" Height="26" Margin="0,67,200.609,0" VerticalAlignment="Top" Width="74"/>
+        <Image x:Name="profilePix" HorizontalAlignment="Left" Height="76.173" Margin="25,87,0,0" VerticalAlignment="Top" Width="86"/>
+        <Label x:Name="label1" Content="RECORD DETAILS" HorizontalAlignment="Left" Height="32" Margin="24,15,0,0" VerticalAlignment="Top" Width="132" FontWeight="Bold" FontFamily="Segoe UI Semibold" FontSize="14.667" Foreground="#FF4E6EB4"/>
+        <Label x:Name="rid" Content="" HorizontalAlignment="Left" Height="30" Margin="31,43,0,0" VerticalAlignment="Top" Width="113"/>
+
+    </Grid>
+</Window>

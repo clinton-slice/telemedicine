@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="TeleMedicine.pages.doctor.schedule"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TeleMedicine.pages.doctor"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Width="685" Height="675" Background="White">
+
+    <Grid>
+        <Label x:Name="label" Content="SCHEDULES" HorizontalAlignment="Right" Height="33.5" Margin="0,27.51,31.902,0" VerticalAlignment="Top" Width="115.164" FontFamily="Segoe UI Light" FontSize="18.667" FontStretch="ExtraCondensed" FontWeight="Bold" Background="{x:Null}" Foreground="Black"/>
+        <Calendar x:Name="calendar" Margin="0,124.07,0,0" HorizontalAlignment="Left" Height="175.766" VerticalAlignment="Top" Width="211.215" SelectionMode="MultipleRange" SelectedDatesChanged="calendar_SelectedDatesChanged" DisplayMode="Year"/>
+        <Rectangle Height="200.875" Margin="242.232,88.622,31.902,0" Stroke="#FFD8CFCF" VerticalAlignment="Top" RadiusY="15.747" RadiusX="15.747"/>
+        <DatePicker x:Name="datepicker" Height="25" Margin="0,169.32,100.098,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="215.646" DisplayDate="2015-11-07"/>
+        <ListView x:Name="listView0" Margin="11.816,313.698,19.408,22.334">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding patient_code}" Header="Patient ID" Width="80"  />
+                    <GridViewColumn DisplayMemberBinding="{Binding patient_name}" Header="Patient" Width="180" />
+                    <GridViewColumn DisplayMemberBinding="{Binding attended}" Header="Attended" Width="65"  />
+                    <GridViewColumn DisplayMemberBinding="{Binding schedule}" Header="Schedule Details" Width="155"  />
+                    <GridViewColumn DisplayMemberBinding="{Binding created}" Header="Date Created" Width="155"  />
+                </GridView>
+            </ListView.View>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="{x:Type ListViewItem}">
+                    <EventSetter Event="Control.MouseDoubleClick" Handler="loadprofile"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+        </ListView>
+        <Label x:Name="label1" Content="New Schedule" Height="26.587" Margin="265.864,94.53,321.652,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="13.333"/>
+        <Button x:Name="button" Content="Save" HorizontalAlignment="Right" Height="29.54" Margin="0,251.095,230.077,0" VerticalAlignment="Top" Width="85.667" Click="button_Click"/>
+        <ComboBox x:Name="comboBox0" HorizontalAlignment="Right" Height="26.017" Margin="0,132.025,100.098,0" VerticalAlignment="Top" Width="215.646"/>
+        <Label x:Name="label2" Content="Patient" HorizontalAlignment="Left" Height="29.54" Margin="280.635,131.456,0,0" VerticalAlignment="Top" Width="59.081"/>
+        <Label x:Name="label3" Content="Date" HorizontalAlignment="Left" Height="29.54" Margin="280.635,169.32,0,0" VerticalAlignment="Top" Width="59.081"/>
+        <Label x:Name="label4" Content="Time" HorizontalAlignment="Left" Height="28.033" Margin="280.635,208.291,0,0" VerticalAlignment="Top" Width="39.879"/>
+        <ComboBox x:Name="comboBox1" HorizontalAlignment="Right" Height="26" Margin="0,208.291,268.444,0" VerticalAlignment="Top" Width="43" IsSynchronizedWithCurrentItem="False" IsHitTestVisible="True" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False" MaxDropDownHeight="150" RenderTransformOrigin="0.852,0.681"/>
+        <ComboBox x:Name="comboBox2" HorizontalAlignment="Right" Height="26" Margin="0,208.291,212.455,0" VerticalAlignment="Top" Width="43" IsSynchronizedWithCurrentItem="False" IsHitTestVisible="True" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False" MaxDropDownHeight="150"/>
+        <ComboBox x:Name="comboBox3" HorizontalAlignment="Right" Height="26" Margin="0,208.291,156.346,0" VerticalAlignment="Top" Width="45" IsSynchronizedWithCurrentItem="False" IsHitTestVisible="True" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False" MaxDropDownHeight="150"/>
+        <Label x:Name="label5" Content=":" HorizontalAlignment="Right" Height="31.955" Margin="0,203.83,243.456,0" VerticalAlignment="Top" Width="25.109" FontWeight="Bold" FontFamily="Segoe UI Semibold" FontSize="16"/>
+        <Label x:Name="label6" Content="Schedule History" HorizontalAlignment="Left" Height="26.587" Margin="11.816,94.53,0,0" VerticalAlignment="Top" Width="118.163" FontSize="13.333" FontFamily="Segoe UI Light"/>
+        <Image x:Name="image" HorizontalAlignment="Right" Height="33.5" Margin="0,31.098,155.011,0" VerticalAlignment="Top" Width="28.419" Source="schedule.png"/>
+
+    </Grid>
+</UserControl>

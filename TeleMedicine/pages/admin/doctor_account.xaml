@@ -1,0 +1,77 @@
+﻿<UserControl x:Class="TeleMedicine.pages.admin.doctor_account"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TeleMedicine.pages.admin"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Width="685" Height="675">
+    <Grid Background="White">
+        <ListView x:Name="listView" Margin="16.5,87,16,53" BorderBrush="#FFF7F8F9">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+
+
+            <ListView.View>
+
+
+                <GridView>
+                    <GridViewColumn Header="Photo"  Width="95">
+
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Border CornerRadius="2,2,2,2" Width="50" Height="50" Background="{x:Null}" BorderBrush="#FFEAE6E6" Margin="3,3,3,3">
+                                    <Image HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto" Height="Auto" Source="{Binding photo}" Stretch="UniformToFill" Margin="2,2,2,2"/>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+
+                    </GridViewColumn>
+                    <GridViewColumn  DisplayMemberBinding="{Binding fullname}" Header="Fullname" Width="300"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding username}" Header="Username" Width="125"/>
+
+                    <GridViewColumn Width="50">
+
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Click="ResetCategory" CommandParameter="{Binding}" Width="25" Height="25" BorderBrush="{x:Null}">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="icons_password.png"/>
+                                    </Button.Background>
+                                </Button>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+
+                    </GridViewColumn>
+
+
+                    <GridViewColumn Width="50">
+
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Click="DeleteCategory" CommandParameter="{Binding}" Width="25" Height="25" BorderBrush="{x:Null}">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="file_delete.png"/>
+                                    </Button.Background>
+                                </Button>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+
+
+                    </GridViewColumn>
+
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label x:Name="label" Content="DOCTOR ACCOUNTS" HorizontalAlignment="Right" Height="33.5" Margin="0,23.079,11.224,0" VerticalAlignment="Top" Width="197.877" FontFamily="Segoe UI Light" FontSize="18.667" FontStretch="ExtraCondensed" FontWeight="Bold" Background="{x:Null}" Foreground="Black"/>
+        <ComboBox x:Name="filtercomboBox" Height="25" Margin="271.5,0,175,11.5" VerticalAlignment="Bottom" SelectionChanged="filtercomboBox_SelectionChanged"/>
+        <Label x:Name="label1" Content="Filter with fullname" HorizontalAlignment="Left" Height="29.5" Margin="109.5,0,0,11.5" VerticalAlignment="Bottom" Width="138" FontSize="14.667" FontFamily="Segoe UI Light"/>
+        <Label x:Name="resultLabel" Content="Result: 0 found" HorizontalAlignment="Left" Height="25.229" Margin="16.5,56.771,0,0" VerticalAlignment="Top" Width="169.5"/>
+        <Image x:Name="image" HorizontalAlignment="Right" Height="33.5" Margin="0,23.713,215.568,0" VerticalAlignment="Top" Width="28.419" Source="doctors.png"/>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="TeleMedicine.pages.patient.dashboard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TeleMedicine.pages.patient"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Width="900" Height="525">
+    <Grid Background="White" Height="524" OpacityMask="White" Margin="0,-0.604,0,1.603">
+        <Rectangle x:Name="rect2" Height="110" Margin="0,58.188,73.306,0" RadiusY="8.823" RadiusX="8.823" StrokeEndLineCap="Square" VerticalAlignment="Top" OpacityMask="White" Width="350" HorizontalAlignment="Right" MouseEnter="rect2_MouseEnter" MouseLeave="rect2_MouseLeave" Cursor="Hand" UseLayoutRounding="True" Grid.IsSharedSizeScope="True" ScrollViewer.CanContentScroll="True" Focusable="True" OverridesDefaultStyle="True" IsManipulationEnabled="True" ForceCursor="True" MouseLeftButtonDown="rect2_MouseLeftButtonDown">
+            <Rectangle.Stroke>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFC5C0C0" Offset="0"/>
+                    <GradientStop Color="#FFEDEAEA" Offset="1"/>
+                </RadialGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle x:Name="rect1" Height="110" Margin="76.485,58.188,0,0" RadiusY="8.823" RadiusX="8.823" StrokeEndLineCap="Square" VerticalAlignment="Top" OpacityMask="White" Width="350" HorizontalAlignment="Left" MouseEnter="rect1_MouseEnter" MouseLeave="rect1_MouseLeave" Cursor="Hand" Grid.IsSharedSizeScope="True" ScrollViewer.CanContentScroll="True" UseLayoutRounding="True" Focusable="True" OverridesDefaultStyle="True" IsManipulationEnabled="True" ForceCursor="True" MouseLeftButtonDown="rect1_MouseLeftButtonDown">
+            <Rectangle.Stroke>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFC5C0C0" Offset="0"/>
+                    <GradientStop Color="#FFEDEAEA" Offset="1"/>
+                </RadialGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle x:Name="rect4" Height="110" Margin="0,201.589,73.306,0" RadiusY="8.823" RadiusX="8.823" StrokeEndLineCap="Square" VerticalAlignment="Top" OpacityMask="White" Width="350" HorizontalAlignment="Right" MouseEnter="rect4_MouseEnter" MouseLeave="rect4_MouseLeave" Cursor="Hand" Grid.IsSharedSizeScope="True" ScrollViewer.CanContentScroll="True" UseLayoutRounding="True" Focusable="True" OverridesDefaultStyle="True" IsManipulationEnabled="True" ForceCursor="True" MouseLeftButtonDown="rect4_MouseLeftButtonDown">
+            <Rectangle.Stroke>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFC5C0C0" Offset="0"/>
+                    <GradientStop Color="#FFEDEAEA" Offset="1"/>
+                </RadialGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle x:Name="rect3" Height="110" Margin="76.485,201.589,0,0" RadiusY="8.823" RadiusX="8.823" StrokeEndLineCap="Square" VerticalAlignment="Top" OpacityMask="White" Width="350" HorizontalAlignment="Left" MouseEnter="rect3_MouseEnter" MouseLeave="rect3_MouseLeave" Cursor="Hand" Grid.IsSharedSizeScope="True" ScrollViewer.CanContentScroll="True" UseLayoutRounding="True" Focusable="True" OverridesDefaultStyle="True" IsManipulationEnabled="True" ForceCursor="True" MouseLeftButtonDown="rect3_MouseLeftButtonDown">
+            <Rectangle.Stroke>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFC5C0C0" Offset="0"/>
+                    <GradientStop Color="#FFEDEAEA" Offset="1"/>
+                </RadialGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle x:Name="rect6" Height="110" Margin="0,0,73.306,73.493" RadiusY="8.823" RadiusX="8.823" StrokeEndLineCap="Square" VerticalAlignment="Bottom" OpacityMask="White" Width="350" HorizontalAlignment="Right" MouseEnter="rect6_MouseEnter" MouseLeave="rect6_MouseLeave" Cursor="Hand" Grid.IsSharedSizeScope="True" ScrollViewer.CanContentScroll="True" UseLayoutRounding="True" Focusable="True" OverridesDefaultStyle="True" IsManipulationEnabled="True" ForceCursor="True" MouseLeftButtonDown="rect6_MouseLeftButtonDown">
+            <Rectangle.Stroke>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFC5C0C0" Offset="0"/>
+                    <GradientStop Color="#FFEDEAEA" Offset="1"/>
+                </RadialGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle x:Name="rect5" Height="110" Margin="76.485,0,0,73.493" RadiusY="8.823" RadiusX="8.823" StrokeEndLineCap="Square" VerticalAlignment="Bottom" OpacityMask="White" Width="350" HorizontalAlignment="Left" MouseEnter="rect5_MouseEnter" MouseLeave="rect5_MouseLeave" Cursor="Hand" Grid.IsSharedSizeScope="True" ScrollViewer.CanContentScroll="True" UseLayoutRounding="True" Focusable="True" OverridesDefaultStyle="True" IsManipulationEnabled="True" ForceCursor="True" MouseLeftButtonDown="rect5_MouseLeftButtonDown">
+            <Rectangle.Stroke>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFC5C0C0" Offset="0"/>
+                    <GradientStop Color="#FFEDEAEA" Offset="1"/>
+                </RadialGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Label x:Name="label" Content="APPOINTMENTS" HorizontalAlignment="Left" Height="36.034" Margin="201.132,92.529,0,0" VerticalAlignment="Top" Width="167.671" FontSize="18.667" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FF344755" MouseEnter="rect1_MouseEnter" MouseLeave="rect1_MouseLeave" Cursor="Hand" MouseLeftButtonDown="rect1_MouseLeftButtonDown"/>
+        <Label x:Name="label_Copy" Content="MESSAGES" HorizontalAlignment="Right" Height="36.034" Margin="0,92.529,126.358,0" VerticalAlignment="Top" Width="167.671" FontSize="18.667" FontFamily="Segoe UI Semibold" FontWeight="Bold"  MouseEnter="rect2_MouseEnter" MouseLeave="rect2_MouseLeave" MouseLeftButtonDown="rect2_MouseLeftButtonDown" Foreground="#FF344755" Cursor="Hand"/>
+        <Label x:Name="label_Copy1" Content="TEST RESULTS" HorizontalAlignment="Left" Margin="201.132,238.874,0,249.092" Width="167.671" FontSize="18.667" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FF344755" Cursor="Hand" MouseEnter="rect3_MouseEnter" MouseLeave="rect3_MouseLeave" MouseLeftButtonDown="rect3_MouseLeftButtonDown"/>
+        <Label x:Name="label_Copy2" Content="MEDICAL BILLS" HorizontalAlignment="Right" Margin="0,238.874,126.358,249.092" Width="167.671" FontSize="18.667" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FF344755"  MouseEnter="rect4_MouseEnter" MouseLeave="rect4_MouseLeave" MouseLeftButtonDown="rect4_MouseLeftButtonDown" Cursor="Hand"/>
+        <Label x:Name="label_Copy3" Content="PHARMACY" HorizontalAlignment="Left" Height="36.034" Margin="201.132,0,0,113.779" VerticalAlignment="Bottom" Width="167.671" FontSize="18.667" FontFamily="Segoe UI Semibold"  MouseEnter="rect5_MouseEnter" MouseLeave="rect5_MouseLeave" MouseLeftButtonDown="rect5_MouseLeftButtonDown" FontWeight="Bold" Foreground="#FF344755" Cursor="Hand"/>
+        <Label x:Name="label_Copy4" Content="SETTINGS" HorizontalAlignment="Right" Height="36.034" Margin="0,0,126.358,113.779" VerticalAlignment="Bottom" Width="167.671" FontSize="18.667" FontFamily="Segoe UI Semibold"  MouseEnter="rect6_MouseEnter" MouseLeave="rect6_MouseLeave" MouseLeftButtonDown="rect6_MouseLeftButtonDown" FontWeight="Bold" Foreground="#FF344755" Cursor="Hand"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="40" Margin="156.636,91.426,0,0" VerticalAlignment="Top" Width="40" Source="schedule.png" Stretch="Fill" MouseEnter="rect1_MouseEnter" MouseLeave="rect1_MouseLeave" Cursor="Hand" MouseLeftButtonDown="rect1_MouseLeftButtonDown"/>
+        <Image x:Name="image_Copy" HorizontalAlignment="Left" Margin="157.739,238.874,0,245.126" Width="40" Source="appointment.png" Stretch="Fill" Cursor="Hand" MouseEnter="rect3_MouseEnter" MouseLeave="rect3_MouseLeave" MouseLeftButtonDown="rect3_MouseLeftButtonDown"/>
+        <Image x:Name="image_Copy1" HorizontalAlignment="Left" Height="40" Margin="161.784,0,0,115.697" VerticalAlignment="Bottom" Width="40" Source="drug.png"  MouseEnter="rect5_MouseEnter" MouseLeave="rect5_MouseLeave" MouseLeftButtonDown="rect5_MouseLeftButtonDown" Cursor="Hand"/>
+        <Image x:Name="image_Copy2" HorizontalAlignment="Right" Height="40" Margin="0,92.529,299.029,0" VerticalAlignment="Top" Width="40" Source="message.png"  MouseEnter="rect2_MouseEnter" MouseLeave="rect2_MouseLeave" MouseLeftButtonDown="rect2_MouseLeftButtonDown" Cursor="Hand" Stretch="Fill"/>
+        <Image x:Name="image_Copy3" HorizontalAlignment="Right" Margin="0,234.908,299.029,249.092" Width="40" Source="bill.png" Stretch="Fill"  MouseEnter="rect4_MouseEnter" MouseLeave="rect4_MouseLeave" MouseLeftButtonDown="rect4_MouseLeftButtonDown" Cursor="Hand"/>
+        <Image x:Name="image_Copy4" HorizontalAlignment="Right" Height="40" Margin="0,0,297.927,116.8" VerticalAlignment="Bottom" Width="40" Source="setting.png" Stretch="Fill" MouseLeftButtonDown="rect6_MouseLeftButtonDown" MouseEnter="rect6_MouseEnter" MouseLeave="rect6_MouseLeave" Cursor="Hand"/>
+        <Label x:Name="status1" Content="" HorizontalAlignment="Left" Height="34.625" Margin="201.869,124.739,0,0" VerticalAlignment="Top" Width="212.85" MouseLeave="rect1_MouseLeave" MouseEnter="rect1_MouseEnter" Cursor="Hand" MouseLeftButtonDown="rect1_MouseLeftButtonDown"/>
+        <Label x:Name="status2" Content="" HorizontalAlignment="Right" Height="34.625" Margin="0,124.739,84.337,0" VerticalAlignment="Top"  MouseEnter="rect2_MouseEnter" MouseLeave="rect2_MouseLeave" MouseLeftButtonDown="rect2_MouseLeftButtonDown" Width="207.486" Cursor="Hand"/>
+    </Grid>
+</UserControl>

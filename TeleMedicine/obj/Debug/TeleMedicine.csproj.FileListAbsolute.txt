@@ -1,0 +1,142 @@
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\bin\Debug\TeleMedicine.exe.config
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\bin\Debug\TeleMedicine.exe
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\bin\Debug\TeleMedicine.pdb
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\bin\Debug\Microsoft.Expression.Drawing.dll
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\bin\Debug\MySql.Data.dll
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\bin\Debug\TeleMedTransition.dll
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\bin\Debug\TeleMedTransition.pdb
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\bin\Debug\Microsoft.Expression.Drawing.xml
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\TeleMedicine.csprojResolveAssemblyReference.cache
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\MainWindow.g.cs
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\admin_frame.g.cs
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\all_account.g.cs
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\doctor_account.g.cs
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\settings.g.cs
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\new_account.g.cs
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\patient_account.g.cs
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\login.g.cs
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\App.g.cs
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\TeleMedicine_MarkupCompile.cache
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\TeleMedicine_MarkupCompile.lref
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\MainWindow.baml
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\admin_frame.baml
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\all_account.baml
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\doctor_account.baml
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\settings.baml
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\new_account.baml
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\patient_account.baml
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\login.baml
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\TeleMedicine.g.resources
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\TeleMedicine.Properties.Resources.resources
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\TeleMedicine.csproj.GenerateResource.Cache
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\TeleMedicine.exe
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\TeleMedicine.pdb
+\\vmware-host\shared folders\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\welcome.g.cs
+\\vmware-host\shared folders\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\welcome.baml
+\\vmware-host\shared folders\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\doctor_frame.g.cs
+\\vmware-host\shared folders\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\doctor_frame.baml
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\settings.g.cs
+\\vmware-host\shared folders\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\settings.baml
+\\vmware-host\shared folders\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\patients.g.cs
+\\vmware-host\shared folders\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\patients.baml
+\\vmware-host\shared folders\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\searchWindow.g.cs
+\\vmware-host\shared folders\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\searchWindow.baml
+\\vmware-host\shared folders\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\appointments.g.cs
+\\vmware-host\shared folders\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\appointments.baml
+\\vmware-host\shared folders\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\schedule.g.cs
+\\vmware-host\shared folders\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\schedule.baml
+\\vmware-host\shared folders\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\messages.g.cs
+\\vmware-host\shared folders\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\messages.baml
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\AddConversation.g.cs
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\AddConversation.baml
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\pharmacy.g.cs
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\pharmacy.baml
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\profile.g.cs
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\profile.baml
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\recordWindow.g.cs
+\\vmware-host\shared folders\documents\visual studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\recordWindow.baml
+\\vmware-host\shared folders\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\pharmacy.g.cs
+\\vmware-host\shared folders\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\pharmacy.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\bin\Debug\TeleMedicine.exe.config
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\bin\Debug\TeleMedicine.exe
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\bin\Debug\TeleMedicine.pdb
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\bin\Debug\MySql.Data.dll
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\bin\Debug\TeleMedTransition.dll
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\bin\Debug\TeleMedTransition.pdb
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\TeleMedicine.csprojResolveAssemblyReference.cache
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\MainWindow.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\admin_frame.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\all_account.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\doctor_account.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\pharmacy.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\settings.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\new_account.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\patient_account.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\AddConversation.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\appointments.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\doctor_frame.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\messages.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\patients.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\pharmacy.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\profile.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\recordWindow.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\schedule.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\searchWindow.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\settings.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\welcome.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\login.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\App.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\TeleMedicine_MarkupCompile.cache
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\TeleMedicine_MarkupCompile.lref
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\MainWindow.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\admin_frame.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\all_account.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\doctor_account.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\pharmacy.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\settings.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\new_account.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\admin\patient_account.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\AddConversation.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\appointments.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\doctor_frame.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\messages.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\patients.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\pharmacy.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\profile.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\recordWindow.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\schedule.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\searchWindow.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\doctor\settings.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\welcome.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\login.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\TeleMedicine.g.resources
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\TeleMedicine.Properties.Resources.resources
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\TeleMedicine.csproj.GenerateResource.Cache
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\TeleMedicine.exe
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\TeleMedicine.pdb
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\patient_frame.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\patient_frame.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\dashboard.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\dashboard.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\messages.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\AddConversation.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\messages.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\AddConversation.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\settings.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\settings.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\appointment.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\appointment.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\bill.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\result.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\bill.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\result.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\pharmacy.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\pharmacy.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\cart.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\patient\cart.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\store.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\store.baml
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\faq.g.cs
+C:\Users\kunlexzy\Documents\Visual Studio 2015\Projects\TeleMedicine\TeleMedicine\obj\Debug\pages\faq.baml

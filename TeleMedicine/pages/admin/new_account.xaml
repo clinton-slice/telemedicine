@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="TeleMedicine.pages.admin.new_account"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TeleMedicine.pages.admin"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Width="685" Height="675">
+    <Grid Background="White">
+        <RadioButton x:Name="radioButton1" Content="Doctor's Account" HorizontalAlignment="Left" Height="20.832" Margin="117.659,134.436,0,0" VerticalAlignment="Top" Width="164.636" FontSize="16" IsChecked="True"/>
+        <RadioButton x:Name="radioButton2" Content="Patient's Account" Height="20.832" Margin="308.531,134.436,179.187,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="label1" Content="Account Type" HorizontalAlignment="Left" Height="33.887" Margin="84.784,93.771,0,0" VerticalAlignment="Top" Width="160.265" FontSize="14.667" FontFamily="Verdana"/>
+        <TextBox x:Name="lastnameBox" Height="29.164" Margin="222.563,203.531,84.482,0" TextWrapping="Wrap" VerticalAlignment="Top" MaxLength="30" FontSize="14.667"/>
+        <TextBox x:Name="firstnameBox" Height="29.164" Margin="222.563,263.249,84.482,0" TextWrapping="Wrap" VerticalAlignment="Top" MaxLength="30" FontSize="14.667"/>
+        <Label x:Name="label2" Content="Lastname" HorizontalAlignment="Left" Height="29.164" Margin="111.833,202.531,0,0" VerticalAlignment="Top" Width="84.504" FontSize="14.667"/>
+        <Label x:Name="label2_Copy" Content="Firstname" HorizontalAlignment="Left" Height="29.164" Margin="111.833,260.249,0,0" VerticalAlignment="Top" Width="84.504" FontSize="14.667"/>
+        <Path Data="M216.64865,338.8609 C306.456,338.8609 324.0468,338.86061 413.85414,338.86061" Fill="#FFB4D4FB" Margin="301.005,332.861,202.267,0" Stretch="Fill" StrokeEndLineCap="Square" Stroke="#FF8EBEF7" OpacityMask="#FF272525" Height="1" VerticalAlignment="Top"/>
+        <Path Data="M216.64865,338.8609 C306.456,338.8609 324.0468,338.86061 413.85414,338.86061" Fill="#FFB4D4FB" Margin="0,0,238.985,332.139" Stretch="Fill" StrokeEndLineCap="Square" Stroke="#FF8EBEF7" OpacityMask="#FF272525" Height="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="85.193"/>
+        <Path Data="M216.64865,338.8609 C306.456,338.8609 324.0468,338.86061 413.85414,338.86061" Fill="#FFB4D4FB" Margin="0,330.861,238.985,0" Stretch="Fill" StrokeEndLineCap="Square" Stroke="#FF8EBEF7" OpacityMask="#FF272525" Height="1" VerticalAlignment="Top" HorizontalAlignment="Right" Width="85.193"/>
+        <TextBox x:Name="usernameBox" Height="29.164" Margin="222.563,0,226.397,261.305" TextWrapping="Wrap" VerticalAlignment="Bottom" MaxLength="12" FontSize="14.667" CharacterCasing="Lower"/>
+        <Label x:Name="label2_Copy1" Content="Username" HorizontalAlignment="Left" Height="29.164" Margin="111.833,0,0,261.305" VerticalAlignment="Bottom" Width="84.504" FontSize="14.667"/>
+        <Label x:Name="label2_Copy2" Content="Default Password" HorizontalAlignment="Left" Height="29.164" Margin="66.721,0,0,203.587" VerticalAlignment="Bottom" Width="129.616" FontSize="14.667"/>
+        <Label x:Name="genPass" Content="G3ERR56" Height="29.164" Margin="222.563,0,0,203.587" VerticalAlignment="Bottom" FontSize="13.333" FontWeight="Bold" HorizontalAlignment="Left" Width="104.627"/>
+        <Button x:Name="button" Content="Regenerate" Height="29.164" Margin="0,0,226.397,203.587" VerticalAlignment="Bottom" BorderBrush="#FFF1F0F0" Background="#FFEEEEEE" Click="button_Click" HorizontalAlignment="Right" Width="90.479"/>
+        <Button x:Name="submitButton" Content="Submit" Height="35" Margin="226.165,0,307.435,105" VerticalAlignment="Bottom" FontSize="14.667" Click="submitButton_Click"/>
+        <Label x:Name="label" Content="NEW ACCOUNT" HorizontalAlignment="Right" Height="33.5" Margin="0,27.771,21.255,0" VerticalAlignment="Top" Width="144.5" FontFamily="Segoe UI Light" FontSize="18.667" FontStretch="ExtraCondensed" FontWeight="Bold" Background="{x:Null}" Foreground="Black"/>
+        <Image x:Name="image" HorizontalAlignment="Right" Height="33.5" Margin="0,30.098,166.415,0" VerticalAlignment="Top" Width="28.419" Source="add.png"/>
+
+
+    </Grid>
+</UserControl>

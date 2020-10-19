@@ -1,0 +1,114 @@
+﻿<UserControl x:Class="TeleMedicine.pages.admin.admin_frame"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TeleMedicine.pages.admin"
+              xmlns:pageTransitions="clr-namespace:TeleMedTransition;assembly=TeleMedTransition"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Width="910" Height="680">
+    <UserControl.Background>
+        <ImageBrush ImageSource="bg.png" Stretch="Fill" TileMode="None"/>
+    </UserControl.Background>
+    <Grid Background="{x:Null}">
+        <Grid>
+            <GridSplitter x:Name="gridSplitter" HorizontalAlignment="Left" Width="222" Background="#CC91B8DE" Foreground="{x:Null}"/>
+            <Button x:Name="new_button" HorizontalAlignment="Left" Height="43.917" Margin="21.75,214.222,0,0" VerticalAlignment="Top" Width="178.25" FontSize="14.667" Click="new_button_Click" TextOptions.TextFormattingMode="Display">
+                <StackPanel Orientation="Horizontal" Width="150">
+                    <Image Height="25" Source="add.png" Width="25" Stretch="UniformToFill" />
+                    <Label FontFamily="Segoe UI Semibold" FontSize="16" TextOptions.TextFormattingMode="Ideal" TextOptions.TextHintingMode="Fixed">New Account</Label>
+                </StackPanel>
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="White" Offset="0.5"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="doctor_account"  HorizontalAlignment="Left" Margin="21.75,319.222,0,304.861" Width="178.25" FontSize="14.667" Click="doctor_account_Click" TextOptions.TextFormattingMode="Display" Height="43.917">
+                <StackPanel Orientation="Horizontal" Width="150">
+                    <Image Height="25" Source="doctors.png" Width="25" Stretch="UniformToFill" />
+                    <Label FontFamily="Segoe UI Semibold" FontSize="16" TextOptions.TextFormattingMode="Ideal" TextOptions.TextHintingMode="Fixed">Doctor Accounts</Label>
+                </StackPanel>
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="White" Offset="0.5"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="parent_account"  HorizontalAlignment="Left" Margin="21.75,0,0,252.194" Width="178.25" Height="43.917" VerticalAlignment="Bottom" FontSize="14.667" Click="parent_account_Click" TextOptions.TextFormattingMode="Display">
+                <StackPanel Orientation="Horizontal" Width="150">
+                    <Image Height="25" Source="patient.png" Width="25" Stretch="UniformToFill" />
+                    <Label FontFamily="Segoe UI Semibold" FontSize="16" TextOptions.TextFormattingMode="Ideal" TextOptions.TextHintingMode="Fixed">Patient Accounts</Label>
+                </StackPanel>
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="White" Offset="0.5"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="all_account"  HorizontalAlignment="Left" Margin="21.75,268.44,0,0" Width="178.25" Height="43.917" VerticalAlignment="Top" FontSize="14.667" Click="all_account_Click" TextOptions.TextFormattingMode="Display">
+                <StackPanel Orientation="Horizontal" Width="150">
+                    <Image Height="25" Source="members.png" Width="25" Stretch="UniformToFill" />
+                    <Label FontFamily="Segoe UI Semibold" FontSize="16" TextOptions.TextFormattingMode="Ideal" TextOptions.TextHintingMode="Fixed">All Accounts</Label>
+                </StackPanel>
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="White" Offset="0.5"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Rectangle HorizontalAlignment="Left" Height="80.232" Margin="17.5,111.018,0,0" VerticalAlignment="Top" Width="204.5" Fill="White" StrokeEndLineCap="Square" RadiusY="6" RadiusX="6"/>
+            <Grid Height="80.232" Margin="21.686,111.018,0,0" VerticalAlignment="Top" OpacityMask="Black" Background="White" HorizontalAlignment="Left" Width="193.25">
+                <Image x:Name="image1" HorizontalAlignment="Left" Margin="1,3.75,0,5.25" Width="71.41" />
+                <Label x:Name="userLabel" Content="" Margin="78.41,2.5,10,0" Background="{x:Null}" Foreground="Black" FontSize="16" FontFamily="Malgun Gothic" FontWeight="Bold" FontStretch="ExtraCondensed" TextOptions.TextFormattingMode="Display" TextOptions.TextHintingMode="Fixed" Height="31.235" VerticalAlignment="Top"/>
+                <Label x:Name="label1" Content="sign out" Margin="76.25,0,34.5,-10.219" TextOptions.TextFormattingMode="Display" TextOptions.TextHintingMode="Animated" FontFamily="Vijaya" FontSize="13.333" Foreground="#FFBB5086" Cursor="Hand" Height="37.5" VerticalAlignment="Bottom" MouseLeftButtonDown="label1_MouseLeftButtonDown"/>
+            </Grid>
+            <Label x:Name="label2" Content="Admin" HorizontalAlignment="Left" Height="25" Margin="97.5,138.75,0,0" VerticalAlignment="Top" Width="73.75"/>
+            <Button x:Name="settings" HorizontalAlignment="Left" Height="43.917" Margin="21.75,0,0,136.262" VerticalAlignment="Bottom" Width="178.25" FontSize="14.667" Click="settings_Click" TextOptions.TextFormattingMode="Display">
+                <StackPanel Orientation="Horizontal" Width="150">
+                    <Image Height="25" Source="setting.png" Width="25" Stretch="UniformToFill" />
+                    <Label FontFamily="Segoe UI Semibold" FontSize="16" TextOptions.TextFormattingMode="Ideal" TextOptions.TextHintingMode="Fixed">Settings</Label>
+                </StackPanel>
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="White" Offset="0.5"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Image x:Name="image" HorizontalAlignment="Left" Height="82" Margin="21,17,0,0" VerticalAlignment="Top" Width="180" Source="telebluewhite.png" StretchDirection="DownOnly"/>
+            <Label x:Name="statusText" Content="Connecting to database" HorizontalAlignment="Left" Height="32" Margin="34.5,0,0,1.5" VerticalAlignment="Bottom" Width="180.436" Background="{x:Null}" Foreground="#FFE0E83A"/>
+            <Ellipse x:Name="statusCircle" Fill="#FFE6FB8A" HorizontalAlignment="Left" Height="11" Margin="20.5,0,0,14.5" StrokeEndLineCap="Square" VerticalAlignment="Bottom" Width="10"/>
+            <Button x:Name="pharmacy"  HorizontalAlignment="Left" Margin="21.75,0,0,192.194" Width="178.25" Height="43.917" VerticalAlignment="Bottom" FontSize="14.667" TextOptions.TextFormattingMode="Display" Click="pharmacy_Click">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="White" Offset="0.5"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+                <StackPanel Orientation="Horizontal" Width="150">
+                    <Image Height="25" Source="drug.png" Width="25" Stretch="UniformToFill" />
+                    <Label FontFamily="Segoe UI Semibold" FontSize="16" TextOptions.TextFormattingMode="Ideal" TextOptions.TextHintingMode="Fixed" Content="Pharmacy"/>
+                </StackPanel>
+            </Button>
+        </Grid>
+        <pageTransitions:PageTransition Name="pageTransitionControl" TransitionType="SlideAndFade" RenderTransformOrigin="0.489,0.486" MaxWidth="900" MaxHeight="700" Margin="222.11,0,8.39,0" />
+
+    </Grid>
+</UserControl>
